@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Corso Bootstrap</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <!-- Bootstrap  Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .dimensione_imm1 {
+      max-width: 100%;
+      max-height:100%;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Passione Foto"><!--compare nei motori di ricerca-->
+  <meta name="author" content="Flavio Mosca"><!--nome dell'autore-->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" >
+</head>
+
+<body>
+  <div class>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light s">
+        <div class="container-fluid">
+            <!--<i class="bi bi-box-seam-fill" style="color: red;"><span> style="color:black"></span> BondRED</i>-->
+            <p class="nav-item p-2 px-lg-0">
+              <i class="bi bi-box-seam-fill text-danger"
+                ><span class="text-secondary">Bond</span
+                ><span class="text-uppercase">Red</span></i
+              >
+            </p>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="chisiamo.html" class="nav-item nav-link">Chi siamo</a>                  
+                     <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">I nostri servizi</a>
+                      <div class="dropdown-menu">
+                          <a href="#" class="dropdown-item">Servizi fotografici</a>
+                          <a href="#" class="dropdown-item">Editor</a>
+                          <a href="#" class="dropdown-item">Consulenze</a>
+                      </div>
+                  </div>
+                    
+                    <a href="contatti.html" class="nav-item nav-link " tabindex="-1">Accedi</a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    
+</div>
+<div class=".container-xl p-3 my-3 bg-danger text-white">Lorem ipsum</div>
+
+  
+</div>
+<div class="row mx-auto bg-dark borded-2">
+  <div class="col-sm px-5 py-5">
+<div id="Carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <!-- Carousel indicators -->
+  <ol class="carousel-indicators">
+      <li data-bs-target="#Carousel1" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#Carousel1" data-bs-slide-to="1"></li>
+      <li data-bs-target="#Carousel1" data-bs-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for carousel items -->
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="IMG/fiumi1.jpg" class="w-100 dimensione_imm1 " alt="Immagine 1">
+          <div class="carousel-caption  text-white">
+              <h5 >IL NOSTRO PRIMO PROGETTO</h5>
+              <p>Panorama 1.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="IMG/fiumi2.jpg" class="w-100 dimensione_imm1  " alt="Slide 2">
+          <div class="carousel-caption text-white">
+              <h5>IL NOSTRO SUCCESSO</h5>
+              <p>Panorama 2.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="IMG/fiumi3.jpg" class=" w-100 dimensione_imm1  " alt="Slide 3">
+          <div class="carousel-caption text-white">
+              <h5>TERZA IMMAGINE</h5>
+              <p>Panorama 3.</p>
+          </div>
+      </div>
+  </div>
+
+  <!-- Carousel controls -->
+  <a class="carousel-control-prev" href="#Carousel1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#Carousel1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+</div>
+</div>
+ <div class="container">
+    <div class="h1"></div>
+    <div class>
+       <!-- Collapse -->
+       <!-- ********** -->
+          
+      
+      <!-- Elemento con contenuto ridotto o espanso -->
+      
+  </div>
+
+<!-- Accordion -->
+       <!-- ********** -->
+    <div class>
+
+      <!-- 1 contenitore, classe .accordion ID accordion1-->
+      <div class="accordion" id="accordion1">
+        <!-- 2 aggiungere accordion-item-->
+          <div class="accordion-item">
+            <!-- 3 aggiungere aaccordion-header al tag h2 con id intestazione1-->
+              <h2 class="accordion-header" id="intestazione1">
+                 <!-- 4 creare il pulsante con le classi accordion-button collapsed,data-bs-toggle="collapse" e target data-bs-target="#Testo1"-->
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Testo1"><h3>La nostra storia</h3></button>									
+              </h2>
+              <!-- 5 aggiungere il contenitore con ID target (Testo 1), data-bs-parent="#accordion1-->
+              <div id="Testo1" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+                <!-- 6 contenuto-->
+                  <div class="card-body">
+                      <p class="lead">Amor, ch’a nullo amato amar perdona, mi prese del costui piacer sì forte, che, come vedi, ancor non m’abbandona… <a href="#">Mostra.</a></p>
+                  </div>
+              </div>
+          </div> <!-- fine elemento 1-->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                  <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#Testo2"><h3>I nostri progetti</h3></button>
+              </h2>
+               <!-- 7 mostra il contenuto con la classe show -->
+              <div id="Testo2" class="accordion-collapse collapse show" data-bs-parent="#accordion1">
+                  <div class="card-body">
+                      <p class="lead">[…] Caron, non ti crucciare: Vuolsi così colà dove si puote ciò che si vuole, e più non dimandare… <a href="#">Mostra.</a></p>
+                  </div>
+              </div>
+          </div> <!-- fine elemento 2-->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                  <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Testo3"><h3>Noi e l'ambiente</h3>></button>                     
+              </h2>
+              <div id="Testo3" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                  <div class="card-body">
+                      <p class="lead">Nel mezzo del cammin di nostra vita
+                        mi ritrovai per una selva oscura,
+                        ché la diritta via era smarrita…<a href="#">Mostra.</a></p>
+                  </div>
+              </div>
+          </div> <!-- fine elemento 3-->
+      </div>
+  </div>
+  </div><!-- fine container -->
+
+  <footer class>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Copyright &copy; BN</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="politica.html" class="text-dark">La nostra politica</a>
+        <span class="text-muted mx-2">|</span>
+        <a href="privacy.html" class="text-dark">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
